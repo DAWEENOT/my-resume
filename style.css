@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+html {
+    font-family: Monospace;
+    font-size: 15px;
+}
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(0, 195, 255);
+}
+
+a:hover, a:active {
+    color:#71838d;
+}
