@@ -1,0 +1,238 @@
+/* home_page */
+
+/* 420px */
+
+@media screen and (max-width: 420px) {
+    #blog-title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
+#blog .blog-item {
+    width: 100%;
+    height: auto;
+    float: none;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#blog .blog-con {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#blog .blog-title {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+#blog .blog-item img {
+    width: 100%;
+}
+
+#blog .blog-item h4{
+    margin: auto;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+#blog .blog-item p{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+}
+
+
+#blog .blog-item a{
+    margin-top: 1rem;
+    padding: 2rem;
+    width: 100%;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+#footer .footer-top-item h4 {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+
+#footer .footer-top-item p {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+/* my_resume */
+
+
+@media screen {
+    @media screen and (max-width: 420px) {
+        #con-head{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 2rem;
+        }
+    }
+}
+
+
+
+#introduce .intro-info h3{
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+#introduce .intro-info p {
+    width: 100%;
+    padding: 2rem;
+}
+
+
+#introduce .intro-info ul {
+    width: 100%;
+    padding: 1rem;
+
+}
+
+#introduce .intro-info li {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+
+
+#blog-ex .blog-title h2 {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+#blog-ex .blog-con {
+    display: block;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+#blog-ex .blog-title {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+#blog-ex .blog-item img {
+    width: 100%;
+    padding: 2rem;
+}
+
+#blog-ex .blog-item h3{
+    margin: auto;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+#blog-ex .blog-item p{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+
+#blog-2-ed .blog-title-2 {
+    padding: 2;
+    margin-top: 0 1rem;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#blog-2-ed .blog-con-2 {
+    display: block;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+#blog-2-ed .blog-item-2 h3 {
+    margin: 0 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+#blog-2-ed .blog-item-2 ul {
+    margin: 0 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+#blog-2-ed .blog-item-2 li {
+    margin: 0 1rem;
+    padding: 2rem;
+}
+
+#blog-cer .blog-title-cer {
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem;
+    margin-top: 0 1rem;
+}
+
+#blog-cer .blog-cer-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0 1rem;
+    padding: 2rem;
+}
+
+#blog-cer .blog-cer-item h3 {
+    padding: 2rem;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+#blog-cer .blog-cer-item p {
+    margin: 0 1rem;
+    padding: 2rem;
+}
+
+#blog-cer .blog-cer-item ul {
+    margin: 0 1rem;
+    padding: 2rem;
+}
+
+#blog-cer .blog-cer-item a {
+    margin: 0 1rem;
+    padding: 2rem;
+    width: 100%;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
