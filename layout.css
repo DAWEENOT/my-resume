@@ -184,8 +184,10 @@
 }
 
 #blog-ex .blog-item img {
-    width: 100%;
+    display: block;
+    width: 30%;
     padding: 2rem;
+    margin: 0 24rem;
 }
 
 #blog-ex .blog-item h3{
@@ -207,8 +209,7 @@
 
 #blog-2-ed .blog-title-2 {
     padding: 2;
-    margin-top: 0 1rem;
-
+    margin-top: 2rem 0;
     text-align: center;
     font-size: 30px;
 }
@@ -238,6 +239,15 @@
     margin: 0 1rem;
     padding: 2rem;
 }
+
+
+#blog-2-ed .blog-item-2 img {
+    display: grid;
+    width: 20%;
+    margin: 0 27rem;
+}
+
+
 
 #blog-cer .blog-title-cer {
     text-align: center;
