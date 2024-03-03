@@ -2,14 +2,7 @@
 
 /* 420px */
 
-@media screen and (max-width: 480px) {
-
-    #blog .container {
-        margin-bottom: 3rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 4rem;
-    }
+@media screen and (max-width: 430px) {
 
     #blog .blog-con {
         grid-template-columns: repeat(1, 1fr);
@@ -30,6 +23,7 @@
     
     #blog .blog-title {
         width: 100%;
+        height
         padding: 2rem;
         text-align: center;
         font-size: 40px;
@@ -65,7 +59,8 @@
         
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 430px) {
     #footer .footer-top-con {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -98,7 +93,7 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
     #welcome .welcome-con {
         margin-bottom: 3rem;
         display: grid;
