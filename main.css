@@ -63,6 +63,7 @@ nav {
 .welcome-info h3 {
     font-size: 2rem;
     font-family: Monospace;
+    text-align: center;
 }
 
 .welcome-info p {
@@ -91,9 +92,21 @@ nav {
     
 }
 
+
+
+
+
 /* Blog part */
 
 .blog-con {
+    margin: 2rem 0;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: auto;
+
+}
+
+.blog-item-a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
@@ -182,3 +195,6 @@ nav {
     padding: 1rem;
     text-align: center;
 }
+
+
+
