@@ -2,79 +2,128 @@
 
 /* 420px */
 
-@media screen and (max-width: 420px) {
-    #blog-title {
+@media screen and (max-width: 480px) {
+
+    #blog .container {
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 4rem;
+    }
+
+    #blog .blog-con {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #blog .blog-item {
+        width: 100%;
+        height: auto;
+        float: none;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    #blog .blog-con {
         display: flex;
         flex-direction: column;
+    }
+    
+    
+    #blog .blog-title {
         width: 100%;
         padding: 2rem;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    #blog .blog-item img {
+        width: 100%;
+    }
+    
+    #blog .blog-item h4{
+        margin: auto;
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    #blog .blog-item p{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: auto;
+    }
+    
+    
+    #blog .blog-item a{
+        margin-top: 1rem;
+        padding: 0.25rem;
+        width: 100%;
+        font-size: 20px;
+        font-family: monospace;
+        text-align: center;
+    }
+        
+}
+
+@media screen and (max-width: 480px) {
+    #footer .footer-top-con {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer .footer-top-item h4 {
+        width: 100%;
+        padding: 1rem;
+        font-size: 22px;
+    }
+    
+    
+    
+    #footer .footer-top-item p {
+        width: 100%;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    #footer .footer-top-item a {
+        width: 100%;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    #footer .footer-top-item i {
+        width: 100%;
+        margin: 0 1rem;
+        text-align: justify;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #welcome .welcome-con {
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-gap: 4rem;
+    }
+
+    #welcome .welcome-info  h3{
+        font-size: 30px;
+    }
+
+    #welcome .welcome-info p {
+        font-size: 18px;
+    }
+
+    #welcome .welcome-info ul {
+        font-size: 18px;
+    }
+
+    #welcome .welcome-img img {
+        width: 360px;
+        height: 560px;
     }
 }
 
-#blog .blog-item {
-    width: 100%;
-    height: auto;
-    float: none;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-#blog .blog-con {
-    display: flex;
-    flex-direction: column;
-}
-
-
-#blog .blog-title {
-    width: 100%;
-    padding: 2rem;
-    text-align: center;
-    font-size: 40px;
-}
-
-#blog .blog-item img {
-    width: 100%;
-}
-
-#blog .blog-item h4{
-    margin: auto;
-    width: 100%;
-    padding: 2rem;
-    text-align: center;
-}
-
-#blog .blog-item p{
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    padding: auto;
-}
-
-
-#blog .blog-item a{
-    margin-top: 1rem;
-    padding: 2rem;
-    width: 100%;
-    font-size: 30px;
-    font-family: monospace;
-    text-align: center;
-}
-
-
-#footer .footer-top-item h4 {
-    display: flex;
-    width: 100%;
-    padding: 1rem;
-}
-
-
-
-#footer .footer-top-item p {
-    display: flex;
-    width: 100%;
-    padding: 1rem;
-    text-align: justify;
-}
 
 
 /* my_resume */
