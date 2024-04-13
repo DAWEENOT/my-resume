@@ -120,6 +120,7 @@ nav {
 
 .blog-item img {
     width: 100%;
+    margin: 0.5rem;
 }
 
 .blog-item h4 {
@@ -191,7 +192,7 @@ nav {
 
 
 .footer-bottom {
-    background-color: #fff;
+    background-color: #f3f581;
     padding: 1rem;
     text-align: center;
 }
